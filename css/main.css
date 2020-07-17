@@ -208,3 +208,70 @@ main .main-buttons button:focus
 {
   border: 1px solid #4d90fe;
 }
+
+footer
+{
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  color: #5f6368;
+}
+
+footer div
+{
+  height: 40px;
+  background: #f2f2f2;
+  border: 1px solid #e4e4e4;
+  align-items: center;
+}
+
+footer .footer-country
+{
+  display: grid;
+  grid-template-columns: 1fr;
+  font-size: 15px;
+  text-align: left;
+  padding-left: 27px;
+}
+
+footer .footer-ul-info-google
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 14px;
+}
+
+footer ul
+{
+  margin: 0px;
+  display: flex;
+  list-style: none;
+}
+
+footer div .footer-ul-info-google-left
+{
+  padding-left: 0;
+  justify-self: left;
+}
+
+footer div .footer-ul-info-google-right
+{
+  margin-right: 27px;
+  justify-self: right;
+}
+
+footer ul a
+{
+  padding-left: 27px;
+  color: #5f6368;
+}
+
+footer ul a:hover
+{
+  text-decoration: underline;
+}
+
+footer ul a:active
+{
+  color: #dd4b39;
+}
