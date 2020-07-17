@@ -18,6 +18,16 @@ a
   cursor: pointer;
 }
 
+input
+{
+  outline-style: none;
+}
+
+button
+{
+  outline: none;
+}
+
 header nav
 {
  display: flex;
@@ -61,4 +71,140 @@ nav .nav-right-section img
 {
   border-radius: 50%;
   margin-left: 15px;
+}
+
+main
+{
+  margin-top: 96px;
+  text-align: center;
+}
+
+main .main-logo
+{
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+
+main .main-logo img
+{
+  height: 92px;
+  width: 272px;
+}
+
+main .main-input
+{
+  width: 588px;
+  margin: 0 auto;
+}
+
+main .main-input-container
+{
+  width: 558px;
+  height: 37px;
+  padding: 5px 8px 0px 14px;
+  border-radius: 24px;
+  border: 1px solid  #dfe1e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .main-input input
+{
+  background: transparent;
+  width: 483px;
+  height: 32px;
+  margin-bottom: 3px;
+  border: none;
+  font-size: 16px;
+  color: #000000;
+}
+
+main .main-input-container:hover
+{
+  box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+  border-color: #dfe1e5;
+}
+
+
+main .main-input-container .main-input-search-icon
+{
+  display: flex;
+  justify-content: flex-start;
+  width: 21px;
+  height: 32px;
+  padding: 0px 13px 3px 0px;
+}
+
+main .main-input-container .main-input-micro-icon
+{
+  display: flex;
+  justify-content: flex-end;
+  width: 28px;
+  height: 32px;
+  padding: 0px 8px;
+}
+
+main .main-input #search-icon
+{
+  background: url("https://img.icons8.com/material-outlined/24/000000/search.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  opacity: 0.4;
+  width: 18px;
+  height: 18px;
+  margin: auto 0;
+}
+
+main .main-input #micro-icon
+{
+  background: url("https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  margin: 0 auto;
+}
+
+main .main-buttons
+{
+  width: 571px;
+  height: 88px;
+  padding-top: 18px;
+  margin: 0 auto;
+}
+
+main .main-buttons div
+{
+  display: inline-block;
+}
+
+main .main-buttons button
+{
+  height: 36px;
+  min-width: 54;
+  margin: 11px 4px;
+  padding: 0 16px;
+  background-color: #f8f8f8;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #5F6368;
+  cursor: pointer;
+}
+
+main .main-buttons button:hover
+{
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  color: #222;
+}
+
+main .main-buttons button:focus
+{
+  border: 1px solid #4d90fe;
 }
